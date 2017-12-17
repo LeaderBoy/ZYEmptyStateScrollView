@@ -51,10 +51,9 @@ static char const *const kEmptyDataArrayKey = "kEmptyDataArrayKey";
 
 #pragma mark - Setter
 -(void)setEmptyDataState:(ZYScrollViewState)emptyDataState {
-    [self.emptyDataSource resetDataSource];
     
     if (self.emptyDataState && self.emptyDataState == emptyDataState) return;
-    
+    [self.emptyDataSource resetDataSource];
     if (self.emptyDataArray.count > emptyDataState) {
         
         self.emptyDataSource.dataSource = self.emptyDataArray[emptyDataState];
