@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5204A69C1FE6B288009C81A5 /* ZYEmptyStateScrollView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5204A69B1FE6B287009C81A5 /* ZYEmptyStateScrollView.gif */; };
 		520D39581FDE916D00779F18 /* UIScrollView+ZYEmptyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 520D39571FDE916D00779F18 /* UIScrollView+ZYEmptyState.m */; };
 		520D395B1FDEC1BA00779F18 /* ZYEmptyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 520D395A1FDEC1BA00779F18 /* ZYEmptyDataSource.m */; };
 		520D39611FDF866800779F18 /* UIColor+ZYColorToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 520D39601FDF866800779F18 /* UIColor+ZYColorToString.m */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		02B6DB1A7D7FD50FB9041A4F /* libPods-ZYEmptyStateScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYEmptyStateScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		272597AD02241B600FFD2B4F /* Pods-ZYEmptyStateScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYEmptyStateScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYEmptyStateScrollView/Pods-ZYEmptyStateScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		5204A69B1FE6B287009C81A5 /* ZYEmptyStateScrollView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ZYEmptyStateScrollView.gif; sourceTree = "<group>"; };
 		520D39561FDE916D00779F18 /* UIScrollView+ZYEmptyState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ZYEmptyState.h"; sourceTree = "<group>"; };
 		520D39571FDE916D00779F18 /* UIScrollView+ZYEmptyState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ZYEmptyState.m"; sourceTree = "<group>"; };
 		520D39591FDEC1BA00779F18 /* ZYEmptyDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYEmptyDataSource.h; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				521121881FDE3E850032F5D9 /* RootTableViewController.h */,
 				521121871FDE3E850032F5D9 /* RootTableViewController.m */,
 				52ED76781FE01CF800110B0F /* ZYEmptyScrollViewDataSource.plist */,
+				5204A69B1FE6B287009C81A5 /* ZYEmptyStateScrollView.gif */,
 				5211218A1FDE3E960032F5D9 /* Main.storyboard */,
 				521121831FDE3B6F0032F5D9 /* ZYEmptyState */,
 				5211215A1FDE3B290032F5D9 /* Assets.xcassets */,
@@ -296,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5204A69C1FE6B288009C81A5 /* ZYEmptyStateScrollView.gif in Resources */,
 				5211218B1FDE3E960032F5D9 /* Main.storyboard in Resources */,
 				5211215E1FDE3B290032F5D9 /* LaunchScreen.storyboard in Resources */,
 				52ED76791FE01CF800110B0F /* ZYEmptyScrollViewDataSource.plist in Resources */,
@@ -540,6 +544,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2X35A5C84A;
 				INFOPLIST_FILE = ZYEmptyStateScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YZY.ZYEmptyStateScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -555,6 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2X35A5C84A;
 				INFOPLIST_FILE = ZYEmptyStateScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YZY.ZYEmptyStateScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

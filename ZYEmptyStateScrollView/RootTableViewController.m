@@ -11,7 +11,7 @@
 #import "ZYEmptyDataSource.h"
 
 #import <objc/runtime.h>
-@interface RootTableViewController ()<DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,UITableViewDataSource>
+@interface RootTableViewController ()<DZNEmptyDataSetDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UIActivityIndicatorView *indicator;
 @property(nonatomic,strong)NSMutableArray *dataSource;
 @property(nonatomic,strong)NSArray <NSDictionary *>*emptyDataArray;
@@ -126,6 +126,7 @@
     cell.textLabel.text = self.dataSource[indexPath.row];
     return cell;
 }
+
 #pragma mark - DZNEmptyDataSetDelegate
 
 -(void)emptyDataSet:(UIScrollView *)scrollView didTapButton:(UIButton *)button {
