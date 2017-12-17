@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIScrollView+EmptyDataSet.h>
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
 
 extern NSString *const ZYEmptyDataSourceTitleKey;
 extern NSString *const ZYEmptyDataSourceTitleColorKey;
